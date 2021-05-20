@@ -1,0 +1,43 @@
+body{
+  background-image:url("../src/back.jpg");
+}
+.bd{
+  border: 1px solid  green ; 
+  padding: 50px 150px 50px 150px ;
+  margin: 50px 150px 50px 150px ;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+  border-radius: 30px;
+
+}
+.profile{
+  text-align: center;
+}
+.image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  object-fit: cover;
+  object-position: center right;
+}
+
+.btn{
+    border: 1px solid green;
+	transform: skewX(-10deg);
+	height: 50px;
+	width: 200px;
+	border-radius: 20px 5px 20px 0px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all .3s ease;
+	font: 15px sans-serif;
+	font-weight: 300;
+	text-shadow: 0 0 20px #fff;
+	text-transform: uppercase;
+	transition: all .2s ease;
+	cursor: pointer;
+margin-left: 280px;
+}
